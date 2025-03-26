@@ -1,0 +1,153 @@
+2025-03-27 00:42:14,311 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.41:5000
+2025-03-27 00:42:14,316 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 00:42:14,346 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-27 00:42:31,526 - WARNING -  * Debugger is active!
+2025-03-27 00:42:31,539 - INFO -  * Debugger PIN: 712-030-187
+2025-03-27 00:42:32,161 - INFO - Index.html page working
+2025-03-27 00:42:32,175 - INFO - 127.0.0.1 - - [27/Mar/2025 00:42:32] "GET / HTTP/1.1" 200 -
+2025-03-27 00:42:32,290 - INFO - 127.0.0.1 - - [27/Mar/2025 00:42:32] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+2025-03-27 00:42:34,593 - INFO - 127.0.0.1 - - [27/Mar/2025 00:42:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 00:42:35,892 - INFO - project.html page working
+2025-03-27 00:42:35,902 - INFO - 127.0.0.1 - - [27/Mar/2025 00:42:35] "GET /project.html HTTP/1.1" 200 -
+2025-03-27 00:42:35,950 - INFO - 127.0.0.1 - - [27/Mar/2025 00:42:35] "[33mGET /static/css/project.css HTTP/1.1[0m" 404 -
+2025-03-27 00:43:55,592 - INFO - Index.html page working
+2025-03-27 00:43:55,594 - INFO - 127.0.0.1 - - [27/Mar/2025 00:43:55] "GET / HTTP/1.1" 200 -
+2025-03-27 00:43:55,881 - INFO - 127.0.0.1 - - [27/Mar/2025 00:43:55] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-27 00:43:55,899 - INFO - 127.0.0.1 - - [27/Mar/2025 00:43:55] "GET /static/images/bg2.jpg HTTP/1.1" 200 -
+2025-03-27 00:43:59,670 - INFO - project.html page working
+2025-03-27 00:43:59,674 - INFO - 127.0.0.1 - - [27/Mar/2025 00:43:59] "GET /project.html HTTP/1.1" 200 -
+2025-03-27 00:43:59,722 - INFO - 127.0.0.1 - - [27/Mar/2025 00:43:59] "GET /static/css/project.css HTTP/1.1" 200 -
+2025-03-27 00:44:17,597 - INFO - project.html page working
+2025-03-27 00:44:17,597 - INFO - 127.0.0.1 - - [27/Mar/2025 00:44:17] "GET /project.html HTTP/1.1" 200 -
+2025-03-27 00:44:17,650 - INFO - 127.0.0.1 - - [27/Mar/2025 00:44:17] "[36mGET /static/css/project.css HTTP/1.1[0m" 304 -
+2025-03-27 00:44:29,179 - INFO - project.html page working
+2025-03-27 00:44:29,181 - INFO - 127.0.0.1 - - [27/Mar/2025 00:44:29] "GET /project.html HTTP/1.1" 200 -
+2025-03-27 00:44:29,222 - INFO - 127.0.0.1 - - [27/Mar/2025 00:44:29] "[36mGET /static/css/project.css HTTP/1.1[0m" 304 -
+2025-03-27 01:00:09,847 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.146:5000
+2025-03-27 01:00:09,847 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 01:00:09,877 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-27 01:00:26,532 - WARNING -  * Debugger is active!
+2025-03-27 01:00:26,560 - INFO -  * Debugger PIN: 712-030-187
+2025-03-27 01:00:27,074 - INFO - Index.html page working
+2025-03-27 01:00:27,083 - INFO - Index.html page working
+2025-03-27 01:00:27,088 - INFO - 127.0.0.1 - - [27/Mar/2025 01:00:27] "GET / HTTP/1.1" 200 -
+2025-03-27 01:00:27,088 - INFO - Index.html page working
+2025-03-27 01:00:27,090 - INFO - 127.0.0.1 - - [27/Mar/2025 01:00:27] "GET / HTTP/1.1" 200 -
+2025-03-27 01:00:27,090 - INFO - 127.0.0.1 - - [27/Mar/2025 01:00:27] "GET / HTTP/1.1" 200 -
+2025-03-27 01:00:27,384 - INFO - 127.0.0.1 - - [27/Mar/2025 01:00:27] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-27 01:00:27,959 - INFO - 127.0.0.1 - - [27/Mar/2025 01:00:27] "GET /static/images/bg2.jpg HTTP/1.1" 200 -
+2025-03-27 01:00:32,107 - INFO - project.html page working
+2025-03-27 01:00:32,116 - INFO - 127.0.0.1 - - [27/Mar/2025 01:00:32] "GET /project.html HTTP/1.1" 200 -
+2025-03-27 01:00:32,159 - INFO - 127.0.0.1 - - [27/Mar/2025 01:00:32] "GET /static/css/project.css HTTP/1.1" 200 -
+2025-03-27 01:00:51,104 - INFO - Input image uploaded
+2025-03-27 01:00:51,176 - INFO - given image is landscape
+2025-03-27 01:00:51,178 - INFO - resizeinbox() is done on input image
+2025-03-27 01:00:51,185 - INFO - 127.0.0.1 - - [27/Mar/2025 01:00:51] "POST /project.html HTTP/1.1" 200 -
+2025-03-27 01:00:51,235 - INFO - 127.0.0.1 - - [27/Mar/2025 01:00:51] "[36mGET /static/css/project.css HTTP/1.1[0m" 304 -
+2025-03-27 01:00:53,052 - INFO - Input image shown in input box
+2025-03-27 01:00:53,099 - INFO - Input image normalized for model
+2025-03-27 01:00:53,160 - CRITICAL - Error in transform function: [Errno 2] Unable to synchronously open file (unable to open file: name = 'D:\Mini project - 1\3\Pencil-Sketch-using-GAN\saved_model\pix2pix_generator_fixed.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-03-27 01:00:53,168 - INFO - 127.0.0.1 - - [27/Mar/2025 01:00:53] "[35m[1mGET /transform HTTP/1.1[0m" 500 -
+2025-03-27 01:01:25,324 - INFO -  * Detected change in 'd:\\Mini project - 1\\3\\Image-to-sketch using GANs\\app.py', reloading
+2025-03-27 01:01:25,333 - INFO -  * Detected change in 'd:\\Mini project - 1\\3\\Image-to-sketch using GANs\\app.py', reloading
+2025-03-27 01:01:27,399 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-27 01:01:40,166 - WARNING -  * Debugger is active!
+2025-03-27 01:01:40,198 - INFO -  * Debugger PIN: 712-030-187
+2025-03-27 01:02:05,367 - INFO -  * Detected change in 'd:\\Mini project - 1\\3\\Image-to-sketch using GANs\\app.py', reloading
+2025-03-27 01:02:05,367 - INFO -  * Detected change in 'd:\\Mini project - 1\\3\\Image-to-sketch using GANs\\app.py', reloading
+2025-03-27 01:02:05,370 - INFO -  * Detected change in 'd:\\Mini project - 1\\3\\Image-to-sketch using GANs\\app.py', reloading
+2025-03-27 01:02:06,716 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-27 01:03:28,181 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.146:5000
+2025-03-27 01:03:28,183 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 01:03:28,204 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-27 01:03:42,515 - WARNING -  * Debugger is active!
+2025-03-27 01:03:42,546 - INFO -  * Debugger PIN: 712-030-187
+2025-03-27 01:03:43,119 - INFO - Index.html page working
+2025-03-27 01:03:43,126 - INFO - 127.0.0.1 - - [27/Mar/2025 01:03:43] "GET / HTTP/1.1" 200 -
+2025-03-27 01:03:43,629 - INFO - 127.0.0.1 - - [27/Mar/2025 01:03:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-27 01:03:43,830 - INFO - 127.0.0.1 - - [27/Mar/2025 01:03:43] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2025-03-27 01:03:47,163 - INFO - project.html page working
+2025-03-27 01:03:47,174 - INFO - 127.0.0.1 - - [27/Mar/2025 01:03:47] "GET /project.html HTTP/1.1" 200 -
+2025-03-27 01:03:47,222 - INFO - 127.0.0.1 - - [27/Mar/2025 01:03:47] "[36mGET /static/css/project.css HTTP/1.1[0m" 304 -
+2025-03-27 01:03:54,198 - INFO - Input image uploaded
+2025-03-27 01:03:54,231 - INFO - given image is landscape
+2025-03-27 01:03:54,231 - INFO - resizeinbox() is done on input image
+2025-03-27 01:03:54,231 - INFO - 127.0.0.1 - - [27/Mar/2025 01:03:54] "POST /project.html HTTP/1.1" 200 -
+2025-03-27 01:03:54,295 - INFO - 127.0.0.1 - - [27/Mar/2025 01:03:54] "[36mGET /static/css/project.css HTTP/1.1[0m" 304 -
+2025-03-27 01:03:55,880 - INFO - Input image shown in input box
+2025-03-27 01:03:55,902 - INFO - Input image normalized for model
+2025-03-27 01:03:55,964 - DEBUG - Creating converter from 3 to 5
+2025-03-27 01:03:55,978 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\ascii.py', reloading
+2025-03-27 01:03:56,286 - WARNING - No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2025-03-27 01:03:56,291 - INFO - Model loaded successfully
+2025-03-27 01:03:56,529 - INFO - Resized predicted image to match input dimensions
+2025-03-27 01:03:56,555 - INFO - Predicted image saved successfully
+2025-03-27 01:03:56,555 - INFO - 127.0.0.1 - - [27/Mar/2025 01:03:56] "GET /transform HTTP/1.1" 200 -
+2025-03-27 01:03:58,320 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-27 01:04:10,826 - WARNING -  * Debugger is active!
+2025-03-27 01:04:10,846 - INFO -  * Debugger PIN: 712-030-187
+2025-03-27 01:04:11,574 - INFO - 127.0.0.1 - - [27/Mar/2025 01:04:11] "[36mGET /static/css/project.css HTTP/1.1[0m" 304 -
+2025-03-27 01:04:42,092 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.146:5000
+2025-03-27 01:04:42,092 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 01:04:42,115 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-27 01:04:55,573 - WARNING -  * Debugger is active!
+2025-03-27 01:04:55,589 - INFO -  * Debugger PIN: 712-030-187
+2025-03-27 01:04:56,064 - INFO - Index.html page working
+2025-03-27 01:04:56,072 - INFO - 127.0.0.1 - - [27/Mar/2025 01:04:56] "GET / HTTP/1.1" 200 -
+2025-03-27 01:04:56,445 - INFO - 127.0.0.1 - - [27/Mar/2025 01:04:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-27 01:04:56,778 - INFO - 127.0.0.1 - - [27/Mar/2025 01:04:56] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2025-03-27 01:07:07,229 - INFO - project.html page working
+2025-03-27 01:07:07,241 - INFO - 127.0.0.1 - - [27/Mar/2025 01:07:07] "GET /project.html HTTP/1.1" 200 -
+2025-03-27 01:07:07,298 - INFO - 127.0.0.1 - - [27/Mar/2025 01:07:07] "[36mGET /static/css/project.css HTTP/1.1[0m" 304 -
+2025-03-27 01:07:17,259 - INFO - Input image uploaded
+2025-03-27 01:07:17,293 - INFO - given image is landscape
+2025-03-27 01:07:17,293 - INFO - resizeinbox() is done on input image
+2025-03-27 01:07:17,294 - INFO - 127.0.0.1 - - [27/Mar/2025 01:07:17] "POST /project.html HTTP/1.1" 200 -
+2025-03-27 01:07:17,350 - INFO - 127.0.0.1 - - [27/Mar/2025 01:07:17] "[36mGET /static/css/project.css HTTP/1.1[0m" 304 -
+2025-03-27 01:07:20,052 - INFO - Input image shown in input box
+2025-03-27 01:07:20,069 - INFO - Input image normalized for model
+2025-03-27 01:07:20,103 - DEBUG - Creating converter from 3 to 5
+2025-03-27 01:07:20,310 - WARNING - No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2025-03-27 01:07:20,310 - INFO - Model loaded successfully
+2025-03-27 01:07:20,458 - INFO - Resized predicted image to match input dimensions
+2025-03-27 01:07:20,478 - INFO - Predicted image saved successfully
+2025-03-27 01:07:20,480 - INFO - 127.0.0.1 - - [27/Mar/2025 01:07:20] "GET /transform HTTP/1.1" 200 -
+2025-03-27 01:07:20,530 - INFO - 127.0.0.1 - - [27/Mar/2025 01:07:20] "[36mGET /static/css/project.css HTTP/1.1[0m" 304 -
+2025-03-27 01:07:26,950 - INFO - 127.0.0.1 - - [27/Mar/2025 01:07:26] "GET /download HTTP/1.1" 200 -
+2025-03-27 01:08:28,298 - INFO - project.html page working
+2025-03-27 01:08:28,299 - INFO - 127.0.0.1 - - [27/Mar/2025 01:08:28] "GET /project.html HTTP/1.1" 200 -
+2025-03-27 01:09:23,462 - INFO -  * Detected change in 'd:\\Mini project - 1\\3\\Image-to-sketch using GANs\\train_gan.py', reloading
+2025-03-27 01:09:23,708 - INFO -  * Detected change in 'd:\\Mini project - 1\\3\\Image-to-sketch using GANs\\train_gan.py', reloading
+2025-03-27 01:09:25,165 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-27 01:09:41,029 - WARNING -  * Debugger is active!
+2025-03-27 01:09:41,041 - INFO -  * Debugger PIN: 712-030-187
+2025-03-27 01:09:44,428 - INFO -  * Detected change in 'd:\\Mini project - 1\\3\\Image-to-sketch using GANs\\train_gan.py', reloading
+2025-03-27 01:09:44,430 - INFO -  * Detected change in 'd:\\Mini project - 1\\3\\Image-to-sketch using GANs\\train_gan.py', reloading
+2025-03-27 01:09:44,432 - INFO -  * Detected change in 'd:\\Mini project - 1\\3\\Image-to-sketch using GANs\\train_gan.py', reloading
+2025-03-27 01:09:47,044 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-27 01:10:02,257 - WARNING -  * Debugger is active!
+2025-03-27 01:10:02,291 - INFO -  * Debugger PIN: 712-030-187
+2025-03-27 01:10:11,201 - INFO -  * Detected change in 'd:\\Mini project - 1\\3\\Image-to-sketch using GANs\\app.py', reloading
+2025-03-27 01:10:11,201 - INFO -  * Detected change in 'd:\\Mini project - 1\\3\\Image-to-sketch using GANs\\app.py', reloading
+2025-03-27 01:10:11,203 - INFO -  * Detected change in 'd:\\Mini project - 1\\3\\Image-to-sketch using GANs\\app.py', reloading
+2025-03-27 01:10:13,180 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-27 01:10:28,148 - WARNING -  * Debugger is active!
+2025-03-27 01:10:28,200 - INFO -  * Debugger PIN: 712-030-187
+2025-03-27 01:11:10,528 - INFO -  * Detected change in 'd:\\Mini project - 1\\3\\Image-to-sketch using GANs\\app.py', reloading
+2025-03-27 01:11:10,529 - INFO -  * Detected change in 'd:\\Mini project - 1\\3\\Image-to-sketch using GANs\\app.py', reloading
+2025-03-27 01:11:10,530 - INFO -  * Detected change in 'd:\\Mini project - 1\\3\\Image-to-sketch using GANs\\app.py', reloading
+2025-03-27 01:11:13,024 - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-27 01:11:28,529 - WARNING -  * Debugger is active!
+2025-03-27 01:11:28,546 - INFO -  * Debugger PIN: 712-030-187
