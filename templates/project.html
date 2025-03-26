@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Image-to-Sketch using GANs</title>
+	<link rel="stylesheet" href="./static/css/project.css">
+</head>
+
+<body>
+	<div class="container" id="container">
+
+		<div class="video-container" id="video-container">
+			<video autoplay="true" id="video" class="video" width="640" height="480"></video>
+			<form id="captureForm" method="POST" enctype="multipart/form-data"></form>
+			<div>
+				<button class="btns" id="capture" type="submit">Capture</button>
+				<button class="btns" id="cancel">Close</button>
+			</div>
+			</form>
+		</div>
+		<div class="main-wrapper">
+			<div class="boxes">
+				<div class="left-box">
+					<div class="box input">
+						{% if filename %}
+						<img id="image" src=" data:image/jpeg;base64,{{filename}}">
+						{% else %}
+						<div class="input-buttons">
+							<form action="" method="POST" enctype="multipart/form-data" class="form-position">
+								<input type="file" name="file" id="file" required class="input">
+								<button class="btns upload" id="upload" type="submit">Upload</button>
+								<!-- <button class="btns">Transform</button> -->
+							</form>
+							<div class="input-buttons stack-top">
+								<canvas id="canvas" width="400" height="400">
+								</canvas>
+							</div>
+							<button class="btns upload camera" id="start">Camera</button>
+						</div>
+						{% endif %}
+					</div>
+
+					
+
+					{% if filename and not outputname %}
+					<!-- <a href="/transform">
+						<button class="btns transform" onclick="{flag=1}">
+							Transform 
+						</button>
+						<button>Transform <span class="load loading"></span>
+						</button>
+					</a> -->
+					<a href="/transform">
+						<!-- <button class="btns transform" onclick="{flag=1}">
+							Transform 
+						</button> -->
+						<button>Transform <span class="load loading"></span>
+						</button>
+					</a>
+					
+					<a href="/project.html"><button class="btns transform">
+							Retry
+						</button>
+					</a>
+					{% elif not outputname and filename %}
+					<div class="box input">
+						<img src=" data:image/jpeg;base64,{{filename}}">
+					</div>
+					{% elif not outputname and not filename %}
+					<a href="/transform">
+						<!-- <button class="btns transform" onclick="{flag=1}">
+							Transform 
+						</button> -->
+						<button>Transform <span class="load loading"></span>
+						</button>
+					</a>
+					{%else%}
+
+					<a href="/project.html"><button class="btns transform">
+							Retry
+						</button>
+					</a>
+					{% endif %}
+				</div>
+				<!-- output image place -->
+				<div class="right-box">
+					<div class="box output">
+						{% if outputname %}
+						<img src=" data:image/jpeg;base64,{{outputname}}">
+					</div>
+					<a href="{{ url_for('.download_file') }}"><button class="btns refresh">Download</button></a>
+					<!-- <button class="btns refresh" onclick="downloadImage('./pred_letter.jpeg')">Download </button> -->
+
+				</div>
+				{% else %}
+				<!-- <img src="C: \\Users\\PARTH\\Pencil-Sketch-using-GAN\\predicted.jpg" alt="image" class="image"> -->
+				{% endif %}
+			</div>
+
+		</div>
+
+	</div>
+	
+</body>
+
+</html>
